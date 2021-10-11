@@ -1,0 +1,52 @@
+body {
+    background-color:skyblue;
+} 
+h1{
+    background-color: orange;
+    padding:0 150px 50px;
+    border: 1px solid black;
+    margin:50px;
+
+}
+.latin{
+    font-size: 45px;
+    color:#ff0033;
+    text-align:center; 
+    padding:30px;
+    width:500px; 
+    line-height:1.2em;
+
+
+}
+#fancy {
+    font-family: 'Ephesis', cursive;
+
+
+}
+#content {
+    max-width: 1600px;
+    margin: 0auto;
+    
+}
+nav a,
+#hero-msg h1, #hero-msg h4,
+.button-box,
+main section
+{
+    text-align: center;
+}
+#background {
+height: 725px;
+}
+.icon {
+    width:80px; 
+}
+nav a,
+.book, .join,
+footer a
+{
+    text-align: center;
+    text-decoration: none;
+    
+}
+footer h3 a:hover { text-decoration: underline;}
