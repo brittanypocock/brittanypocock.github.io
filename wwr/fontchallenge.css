@@ -1,0 +1,36 @@
+body{
+    font-size: 120px;
+    color:cornflowerblue;
+}
+.material-icons {
+    color:darkblue;
+    font-size: 40px;
+}
+#lightbulb{
+    color:yellow;
+    font-size:60px;
+}
+#problem{
+    color:red;
+    font-size: 100px;
+}
+#star{
+    color:rosybrown;
+    font-size: 200px;
+}
+#update{
+    color:salmon;
+    font-size: 50px;
+}
+#power{
+    font-size:70px;
+    color:springgreen;
+}
+#book{
+    color:teal;
+    font-size: 300px;
+}
+#chair{
+    color:tomato;
+    font-size: 50px;
+}
