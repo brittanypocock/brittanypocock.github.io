@@ -218,11 +218,34 @@ footer {
 footer a{
     color:#fff029; 
 }
+.blog-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+.summer{
+    grid-column: 1/2;
+    padding: 20px;
+    text-align: center;
+}
+.highlights{
+    grid-column: 2/3;
+    padding: 20px;
+    text-align: center;
+
+}
+.wild{
+    grid-column: 3/4;
+    padding: 20px;
+    text-align: center;
+}
+
+
 
 
 /* nothing under this */
 @media screen and (max-width: 900px) {
-    #hero, .home-grid {
+    #hero, .home-grid, .blog-grid {
         display: block;
         height: auto;
     }
