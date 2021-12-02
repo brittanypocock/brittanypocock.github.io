@@ -70,3 +70,15 @@ img{
 nav a{
     color:black;
 }
+.fashion-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+}
+.fashion{
+    text-align: center;
+}
+.chanel{
+    justify-self: center;
+}
+
