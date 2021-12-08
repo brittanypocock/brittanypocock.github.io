@@ -81,4 +81,17 @@ nav a{
 .chanel{
     justify-self: center;
 }
+.music-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+}
+#taylor{
+    text-align: center;
+}
+.music{
+    text-align: center;
+}
+
+
 
