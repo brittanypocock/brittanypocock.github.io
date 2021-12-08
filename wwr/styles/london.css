@@ -1,0 +1,30 @@
+
+img{
+    grid-column: 2/3;
+    grid-row: 1/-1
+}
+#content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 3em;
+    padding-left: 3em;
+    padding-right: 3em;
+    grid-column: 1/2;
+    }
+input{
+    margin: 1em;
+    border-radius: 5px;
+    margin-left: 1em;
+}
+h1{
+    color: darkblue;
+}
+button{
+    color:darkblue;
+    border-radius: 3px;
+    size: 30px;
+    height: 30px;
+}
+
